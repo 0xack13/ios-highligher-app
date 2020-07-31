@@ -1,0 +1,1257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07252E9AC17882D2B1EA4168AFCCE740 /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D9BBA86708CD4D4C88D9400D04B4 /* tomorrow-night-blue.min.css */; };
+		08EFCDAA97DF13161E4256DDC02F4DAA /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 236F8BA4C8812B68EE214F86C2E66063 /* solarized-dark.min.css */; };
+		0A0F1E2B7C7E54CC8635EF4371F48FE9 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CB256CD8868746947FB03DC5DF10767D /* ocean.min.css */; };
+		0BA6E56E894728D59DEF66A4C63D9A7A /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 84B9CEF283078F0277118BFB33FF0EDC /* atelier-savanna-light.min.css */; };
+		0C55B1D975887B51CF242672194E7D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0DC3D15F4FAA1853B7B377900BCA417E /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 14D419F819DCD0BF473B7A48F2F837DC /* atelier-sulphurpool-light.min.css */; };
+		117167EFE5268CA55A50FE556EC42E9E /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 476B1D31BD41551731A95DD5B5D4A93F /* github.min.css */; };
+		12EA1FDBC73D3E6FE5DED3A5AF6611D4 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4340A87E7A8AED82DA09EDC3DC2D4D4A /* dracula.min.css */; };
+		14B7119D584D683382AD551BD7E0CE1F /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 480DB4F290639F9932AB3EDF805A1E33 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		19AF00486DE96979A194FA58C0840695 /* gml.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 92DF222CB28DD3E9B17AAB554ABC97C9 /* gml.min.css */; };
+		19E9D2DD82F6AA80DB0F16BD6FB7C540 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B3C737802EA4DD6E7FB1BA52119DC72C /* tomorrow-night-eighties.min.css */; };
+		1C28C1D3C9A5A148C552451C097C51F1 /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 29B74337F5C25C489C134EA6833628FB /* ascetic.min.css */; };
+		1CA2D2B63B73621DBAC7CFEB380CFDF6 /* isbl-editor-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3AB368CF994E1E995CB9C3D1637C8AAF /* isbl-editor-light.min.css */; };
+		21B4CDC6FD90007EF9A2992C9C41DC49 /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = AEEA3CBA1FA91DD817E7FC9ED193EEC3 /* color-brewer.min.css */; };
+		21E9C1635BED58B8B49774AB168CDC9D /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EEA069329DBCCD3F2135E3A65C41C8CE /* dark.min.css */; };
+		24D50EC74B590D27D845C80D7D887EE3 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DB09A5186C1151B5AEDD8ED888617E /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		295CFC1BD4613F4AD34DD8229EF50F93 /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D9601678AB87A48B273FD52C8F4E0BA2 /* atom-one-light.min.css */; };
+		2E7CA3EAF445B41806F1C1BC057E628E /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9E3411532861BA96E514EDE3DE59D015 /* foundation.min.css */; };
+		3080BAC39D886FFDFEBFB19ED7467669 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3D7ABF46FAE72D119EAB5B9057043 /* HTMLUtils.swift */; };
+		30A1A9F011DCCB5881FB72D9C89E14A3 /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 499AAD9742D7C2F0FD594630F6060916 /* railscasts.min.css */; };
+		32165B3A0682954DD05178C9A7ED1187 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F33B1E000D3715C8E4B63F28B357C7D8 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3406709367A4D069D707E6343D9B499F /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 00335580816269E343AD9E790B8F175E /* sunburst.min.css */; };
+		35F0FF7AA9DA5ABE4319BF03753615BD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1C50795CE53E0B5B5D9071FB25FEF /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CAA6E5219F3997A859577B688E9365A /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EDA92623710D4FAC9FE70288520E4027 /* routeros.min.css */; };
+		3F5BF0A034ED0E363A5CDD05C36EA2A3 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 87956A7071C64B4CCEB48B0D00ECDEA0 /* hopscotch.min.css */; };
+		40163CB38A022C5517CFDBD7F6CABEFF /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FE6BECF7CBCA678B7DEBCD9946AAE /* atelier-cave-dark.min.css */; };
+		416DDE6DA332A7F5F27538DF14390B80 /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B7B1EA5E41795F15AFD54171E12FB2F5 /* qtcreator_light.min.css */; };
+		42FF8F423095C1B79155779D05C792CA /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8644CD969A1889C2C60F79728BC6E3B5 /* zenburn.min.css */; };
+		437503877C37313F6544CB53D3209D92 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EDDC60C952D21B829C4AB9A790D66B76 /* atelier-lakeside-dark.min.css */; };
+		45698778B5D965CFB9C43F683BF6625A /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB7099D4E6404B0115EAE11607DF91 /* github-gist.min.css */; };
+		475002A7B711CD996CEDD17CCAA93099 /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D3B4B7BE83FA4325A01D008B63A288 /* Highlightr.swift */; };
+		48385935B0709D5AD3C97E3B251A20CF /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CE18B768B7045C156E9E8F83ACC7C591 /* solarized-light.min.css */; };
+		4B695F5F2420166E5982E8B8B1C2A13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4F246508449CC33854B7E1CC61699D9D /* shades-of-purple.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 46E4EF64395F8446759935654C1AA0D6 /* shades-of-purple.min.css */; };
+		501D9D8444A4AC2A50E059E60053F48A /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2739E229592C23C8C997ED43467625 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		509AAB38C4407B8DF620D3364EE6860D /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 93FD5EC52C5907208CC794E92A34950C /* docco.min.css */; };
+		54D224241A014C4C6DCBD2026B429D60 /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A105802BDBF6BEF8F72DFACBF81A5CC /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5958EA9310DE6034B00DFE8919916758 /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E3836D583C07B153B41AD733583B1108 /* tomorrow-night.min.css */; };
+		59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65919638DE13B02629B469EB7C5900BC /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFC6B513821D9A24606647D18A1A6AC /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D3994D463175BAC1D4DD0CB66CCB3E46 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C1DB39ED6A07B9AF4F5B29B51DDD3B1 /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CD299B6EE6C6CAA5C45F2C91A81F296E /* ir-black.min.css */; };
+		5E2AC9DEBC506C976E544B0566B61DF0 /* isbl-editor-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E471AD263F2255ACCAC52BFD53FEC0F5 /* isbl-editor-dark.min.css */; };
+		5E99A3596F5F638076161D06AB2CCC56 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FDF0485497E859F04B3C4005BDF62A /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EE5ED52B7595E35B0BD57761511FED /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A43E56089DF80CCE8466F6DBCFE51E /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D2AB8F611C6981073337A5CB75A8D5 /* Pods-highlighterapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1D1B41F1C64FE4B3E3AB8E7C39D99 /* Pods-highlighterapp-dummy.m */; };
+		682D476D4804A5F7BFAE75EE827D2638 /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 485A6B713F4A86F0217B7AAC4B0691F0 /* codepen-embed.min.css */; };
+		69B08E1E5A144ECD1E4FF722E8ACECE3 /* lightfair.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E3C9007CAAB81C1B0EA41F8A3A2242 /* lightfair.min.css */; };
+		69F59DD09E155F745D9F2ABB3A64EBF7 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 31EEF98E8D791FB634EBB9D5AF53F96C /* agate.min.css */; };
+		6C0D9FD5DDB88A298F3C26883488E92A /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5C06D9227C7C0E68E7146A8D1E04F460 /* school-book.min.css */; };
+		6C3216186CB3EE026FD7B7E35CD715C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB917A527C1720F8C64C5732BE826176 /* Theme.swift */; };
+		6C91B4F117FFA093F740F975C33CB2B8 /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1891E01810B7F99AEBEF0FF3E40C70DE /* pojoaque.min.css */; };
+		70866031BBB9398A61E0FCC5DA0E4228 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E60C8D0433952D969A353CC901D83703 /* atom-one-dark.min.css */; };
+		70B30C189B53A7E694253E32F1CFD909 /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B4D4712C383A79404BF7A45624831 /* atelier-estuary-light.min.css */; };
+		746B9C316EDD28F601A99C13AEC63F24 /* Highlightr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D19111BCA30676968FB0764FEF1DB92 /* Highlightr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764C13BFA23196755AE16C23C407B1B2 /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 79F1A8E5F0CA83705C82CF481A252FD4 /* vs.min.css */; };
+		79BEDD505089C8B52CC5422BDDE04B68 /* Pods-highlighterapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F005D2A8F7E3F15CC350DA9E757BBE55 /* Pods-highlighterapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A5FA2AF26C1E051151BC66F3C8639F8 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7677B52EC7D1A563C8981684A5A86EBE /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2528772BDC6A6EB0EEEFD85740C034 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C6FA47C083D256932BF7EBDFC022C /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D6D4B1D849EA06229626399F32C64E9 /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A84BEC321AF3403708DAAE89E6798 /* tomorrow.min.css */; };
+		7E24A64B126B2E84349534D7D668AE30 /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B0D6F4B07E0F584EF584EBBF16FA10DB /* paraiso-light.min.css */; };
+		7F3C85EBC1F3F2ECE4FF6453A3522BAC /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 219CAE2657D20E0D5C0AEB52E230AF53 /* tomorrow-night-bright.min.css */; };
+		7F70002E8C0DF2BF8A9F5D47A924AD63 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8BE2FFB08283D1F9297E28A2B7378CBD /* idea.min.css */; };
+		80512224A93B07789E3D9B0B1D1DE878 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9BE1D830DE9DCFE682C19169C65BA /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80633AE38B7FFC76DE34B87A63820527 /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E7E5012054CF0C9D222E40ABFDCCA305 /* monokai-sublime.min.css */; };
+		81B150D610C43FBAA49FD85F086BE90A /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C042A47AB06D4072BB8107E46C17ADEC /* atelier-plateau-dark.min.css */; };
+		83651C970DF8263E1D00CBAE47DC3665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		8874C6FFD6003A48E1879E3EEA1C35B1 /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAB487C92448F1C32D936093D3C2440 /* hybrid.min.css */; };
+		89453DE5FF4129D4AEFCDB48E5193D98 /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6E755634AF5A4204B9C1117B19620 /* atelier-savanna-dark.min.css */; };
+		8D5D26A5B70AA4D55D6BE58745D76E5A /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AFEE35261DA368A0FF63F50AC4A4203 /* atelier-seaside-light.min.css */; };
+		94211506B10F74C3E3ED065E382BAB8B /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0C26D45CBF02BB40462450BE760219B0 /* purebasic.min.css */; };
+		945DCA340BE155923A9265A5F44FBAC7 /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C50BBB9D5C05083446F6E72E2E677945 /* xt256.min.css */; };
+		958AD0EFC163CB32EA6745A5B5E9692D /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 85A98573B68B42BD57C563D0526535FE /* atelier-estuary-dark.min.css */; };
+		963C85C58CE21ACF53AF1164C41DBF44 /* an-old-hope.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3CA697B53BBF4D21A6E9BD74ED7A042 /* an-old-hope.min.css */; };
+		98A56F4FB4306A4281F6426384A9F982 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 95A982261684D9D603FF3DAAC667945F /* rainbow.min.css */; };
+		98BA981DAE8909BBCCC84BD7C11A9CFE /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D74DEFBC106D5CAA023420762ADC0D8 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9BBCACB93C3591CC2C05F032F545CBAD /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC354D3FEC0C1E9EDE1C4C652ED27D /* atelier-dune-dark.min.css */; };
+		9BFAD43FAB646FB257EC1BAB5B961D6F /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0C8C737E31AA0E41862129A639290 /* atelier-seaside-dark.min.css */; };
+		9DEA816E3C0C45754C0C55721B5C5A3E /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9E96E7A7C51821B8FCBBF234BF3D16E7 /* mono-blue.min.css */; };
+		9EFFA7B5F6A011C8629CB7F3EC3E580B /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3A55EAC4CDF4667DAE86CD72189ED /* CodeAttributedString.swift */; };
+		A1237D1EEF827FF68FD99A8DD8BE73BF /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BF79F4722D1CF2AD5DE1BCFF431395 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A135726B17D46E531FF97ED1A5913B1E /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 177E7A8F3E35ADF945776B858ACCEA3F /* atelier-forest-light.min.css */; };
+		A3E3A956296D2642CC84D07F65D277A5 /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BAA924225B26C90D87223D1246A4A530 /* atelier-sulphurpool-dark.min.css */; };
+		A527247163EFAE005CF0BDEC52920CCD /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAAFC1A54138B0C9EAD875ED57C8EB /* ActionSheetPicker-3.0-dummy.m */; };
+		A5828B9228BE4D8F51717C2B33DD8124 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB452046B7BE8EFB7B11DE9D849604F /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A623E240622352B0B89729F99971540A /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1363409481F137A563455507E38F49B8 /* gruvbox-dark.min.css */; };
+		A7B6BDC6A19D36FCE9F4656E03502D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		A9D9D0E8198E55FF5AD536AB433F90D5 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = ECDE93AB9B7D80C6F0FED2671826A919 /* gruvbox-light.min.css */; };
+		AA5C32D97513834B0735E998633E5573 /* Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD39CA0FD7F75C4FB7A2D53F4254433 /* Shims.swift */; };
+		AFA7A7D2E2531C72B55E26B28B0660D6 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDFF8C0B74520B70C6C987923D9B2F0 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B04A04F3D9EAE6935B55A4CB7404A43B /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 855C7A4B360D93B43882E735BE5B3488 /* atelier-forest-dark.min.css */; };
+		B152AF66EB22A28C60540A313BFCD76E /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 959C082315B30C6C1D10D76E51116A21 /* atelier-heath-light.min.css */; };
+		B187C749298B8BB4253961040E4F86C1 /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = DB3B568777E33DFA4092865251B17D66 /* atelier-heath-dark.min.css */; };
+		B22D8097FEA61CBB9A6094D4B60DC505 /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 79FEB4F113C07F96A9D169F28419418E /* androidstudio.min.css */; };
+		B322E14EE5D4B1F203C3C543F285C418 /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D4838042E5D0E238F5EE369F81C66D22 /* paraiso-dark.min.css */; };
+		BC995ADB8550B0B8CB8B53AC8BC643EC /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 31911C8F718BD3338A76C52853D90BF6 /* qtcreator_dark.min.css */; };
+		BE09CC034675464469183909970F2460 /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E17E194DE0F18E44D014897C774801F0 /* obsidian.min.css */; };
+		BF1517DB55CDFFBDBA8EFD4335FB0EE1 /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3A9604F1197DA0EA7073FB849AF6135C /* googlecode.min.css */; };
+		BFE400F171DC60C014F13D691FD61FA8 /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 12B692A9DC24F094D8FC002DE6B7A3B5 /* atelier-dune-light.min.css */; };
+		C0B1DE05CABBD89231D61791493DAC2C /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EC3B62255760E065EF3DB710E9F6BB /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FA571123133CCBB85CC5DB8A68D89B /* a11y-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E608F8ABC64584A597B8B8B68942F81C /* a11y-light.min.css */; };
+		C2802A0975B9AFF772715A8BCC89128D /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B75DCE9FD097690FD8E3F353BAFB4529 /* grayscale.min.css */; };
+		C2C19A279E190C14972634D249E96F45 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D4E19547D683BD6B3F1A980DD8500B4C /* darcula.min.css */; };
+		C2D65EAE8886AC3A1EF396D513DFA37F /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7048DC0BB056B8BA07920E105A3E2703 /* atelier-plateau-light.min.css */; };
+		C462C9DD4B11CE445E2C0DC761452AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C5E4135327693EACA18256193F2DC95B /* nord.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9DF778A8C089015C86E57E7C59B8142C /* nord.min.css */; };
+		C65D0EE0041E43E7211946FD5B1E2CAD /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AB6F8750AB3874CC35AC38A0246321 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8AAAAA899223C4342B183E664284CED /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3B96775653D1A2F4AEDB0606D2FEA81 /* kimbie.light.min.css */; };
+		C8E3B6D1D900E64A816A45FBD10D5354 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B846968B23520F515D74AB9D7AA8CD /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9537AAFF97CBF25AD79A10E8A802253 /* vs2015.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BB783B17539F47F6E322B4A365555D3B /* vs2015.min.css */; };
+		CAF6C0CC4CA79C9AFB0506EC45C6E94B /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 093E8F83D5FAAB9BF372A90EB3A80D09 /* default.min.css */; };
+		CD5468196E7DE88F3C6531D76F480195 /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C146A84741EADBBE5A1FBBE2F835E0E /* arduino-light.min.css */; };
+		CFCD464D6E4B76367A35F6752630BAA3 /* Highlightr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0297132DB8637EAF38F826FB38C5E30 /* Highlightr-dummy.m */; };
+		D25CCB428F60F230FC80C6D19DE084CF /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 13EBB4251635D31C2203EC9A627F261E /* far.min.css */; };
+		DA46CE544774BB49772D545061DF00D9 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A4450C82156755729CF73ABE5313F296 /* monokai.min.css */; };
+		DBBCA4EA831AE6BAAB632D098314DD05 /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 42D416E8443302D0D685ECC3F4D5E7AB /* darkula.min.css */; };
+		E0FAE2EEEE2AF98B6EA1B8B6F0B898BD /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B81C625B46870E80E06010496AE52A /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79E4C6F654E7373059D62E4F2432C91 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FAEEA07073F56320D2AF5E2BE9D7AEE3 /* magula.min.css */; };
+		E7E8411A877D5374B0BE09D7856FC0CF /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6C910FFB7BED8B74D04A07148F972372 /* atelier-lakeside-light.min.css */; };
+		EA0C2301A8F1A0DA9BD6D299CA10080A /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C807439E475EFA7DB8ED53D6DDB6EF36 /* atelier-cave-light.min.css */; };
+		EBD7F5BCF2EC0163384B1D5873DCC762 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 238D874E903301F2060D6355DE22C461 /* highlight.min.js */; };
+		EDDC7DAE72472D6C48A3E3ECB654B1E6 /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B5F926D942F77725F306DCFE6EBBBEA6 /* xcode.min.css */; };
+		F05E65795E43FCD2F3CAF46C36F4F132 /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C4AD5E0D284EA20E1AE9660C69394 /* kimbie.dark.min.css */; };
+		F43C3A80AE7A7469CB144208F960AF5E /* atom-one-dark-reasonable.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A02DF3EC43D3B538A8D275E997A382D3 /* atom-one-dark-reasonable.min.css */; };
+		F8E0A47D8491EF135AD8E3B5E54C2AD6 /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2BDD517D15EFE72633A857C916988265 /* arta.min.css */; };
+		FBAB4EB203A6009138A1C1E2BB7888A1 /* a11y-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8F96D005243F467247582323CD943326 /* a11y-dark.min.css */; };
+		FDE2CCCCBC20A84591FCABA3A9A2EA0F /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B43DBE2A3E4683D231F49AB20A930F78 /* brown-paper.min.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001CC5AF482A589C5841560F5B0F0F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		5FE777E8F4701FAF1F531CD46A43097B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0DFE582E64AE7298C59241B7B610B04;
+			remoteInfo = Highlightr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00335580816269E343AD9E790B8F175E /* sunburst.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = sunburst.min.css; path = Pod/Assets/styles/sunburst.min.css; sourceTree = "<group>"; };
+		022AC89CC31C7C72257DCBAEE2D2EB5F /* Pods-highlighterapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-highlighterapp-frameworks.sh"; sourceTree = "<group>"; };
+		0233313B100314A7616B432D02E268E3 /* Highlightr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.debug.xcconfig; sourceTree = "<group>"; };
+		05B8F14F93C3FCE0B57C3540E0EAFDA2 /* Highlightr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Highlightr-Info.plist"; sourceTree = "<group>"; };
+		093E8F83D5FAAB9BF372A90EB3A80D09 /* default.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = default.min.css; path = Pod/Assets/styles/default.min.css; sourceTree = "<group>"; };
+		0AFEE35261DA368A0FF63F50AC4A4203 /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-seaside-light.min.css"; path = "Pod/Assets/styles/atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		0C26D45CBF02BB40462450BE760219B0 /* purebasic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = purebasic.min.css; path = Pod/Assets/styles/purebasic.min.css; sourceTree = "<group>"; };
+		0E2739E229592C23C8C997ED43467625 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		0E6FE6BECF7CBCA678B7DEBCD9946AAE /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-cave-dark.min.css"; path = "Pod/Assets/styles/atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		110081A35B4301EC426D75DAE121A5B1 /* Highlightr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Highlightr.modulemap; sourceTree = "<group>"; };
+		12B692A9DC24F094D8FC002DE6B7A3B5 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-dune-light.min.css"; path = "Pod/Assets/styles/atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		1363409481F137A563455507E38F49B8 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "gruvbox-dark.min.css"; path = "Pod/Assets/styles/gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		13EBB4251635D31C2203EC9A627F261E /* far.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = far.min.css; path = Pod/Assets/styles/far.min.css; sourceTree = "<group>"; };
+		14D419F819DCD0BF473B7A48F2F837DC /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-sulphurpool-light.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		177E7A8F3E35ADF945776B858ACCEA3F /* atelier-forest-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-forest-light.min.css"; path = "Pod/Assets/styles/atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		1891E01810B7F99AEBEF0FF3E40C70DE /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = pojoaque.min.css; path = Pod/Assets/styles/pojoaque.min.css; sourceTree = "<group>"; };
+		18A43E56089DF80CCE8466F6DBCFE51E /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		1DA9BE1D830DE9DCFE682C19169C65BA /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		1F59BB6CEAFDDC70EB6191A81DA7036D /* Pods-highlighterapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-highlighterapp-Info.plist"; sourceTree = "<group>"; };
+		1FBC8E9FE20FA702FDAD0282C1AB2D47 /* Pods-highlighterapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-highlighterapp.modulemap"; sourceTree = "<group>"; };
+		219CAE2657D20E0D5C0AEB52E230AF53 /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-bright.min.css"; path = "Pod/Assets/styles/tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		236F8BA4C8812B68EE214F86C2E66063 /* solarized-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-dark.min.css"; path = "Pod/Assets/styles/solarized-dark.min.css"; sourceTree = "<group>"; };
+		238D874E903301F2060D6355DE22C461 /* highlight.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.min.js; path = Pod/Assets/Highlighter/highlight.min.js; sourceTree = "<group>"; };
+		24B846968B23520F515D74AB9D7AA8CD /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		26E3C9007CAAB81C1B0EA41F8A3A2242 /* lightfair.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = lightfair.min.css; path = Pod/Assets/styles/lightfair.min.css; sourceTree = "<group>"; };
+		29B74337F5C25C489C134EA6833628FB /* ascetic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = ascetic.min.css; path = Pod/Assets/styles/ascetic.min.css; sourceTree = "<group>"; };
+		2BDD517D15EFE72633A857C916988265 /* arta.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = arta.min.css; path = Pod/Assets/styles/arta.min.css; sourceTree = "<group>"; };
+		2DD39CA0FD7F75C4FB7A2D53F4254433 /* Shims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shims.swift; path = Pod/Classes/Shims.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31911C8F718BD3338A76C52853D90BF6 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = qtcreator_dark.min.css; path = Pod/Assets/styles/qtcreator_dark.min.css; sourceTree = "<group>"; };
+		31EEF98E8D791FB634EBB9D5AF53F96C /* agate.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = agate.min.css; path = Pod/Assets/styles/agate.min.css; sourceTree = "<group>"; };
+		34FDF0485497E859F04B3C4005BDF62A /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		39AB6F8750AB3874CC35AC38A0246321 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		3A9604F1197DA0EA7073FB849AF6135C /* googlecode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = googlecode.min.css; path = Pod/Assets/styles/googlecode.min.css; sourceTree = "<group>"; };
+		3AB368CF994E1E995CB9C3D1637C8AAF /* isbl-editor-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "isbl-editor-light.min.css"; path = "Pod/Assets/styles/isbl-editor-light.min.css"; sourceTree = "<group>"; };
+		3BDAAFC1A54138B0C9EAD875ED57C8EB /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		3DAAAB3F4D78209776E6E8E3F13DDE89 /* Highlightr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.release.xcconfig; sourceTree = "<group>"; };
+		42D416E8443302D0D685ECC3F4D5E7AB /* darkula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = darkula.min.css; path = Pod/Assets/styles/darkula.min.css; sourceTree = "<group>"; };
+		4340A87E7A8AED82DA09EDC3DC2D4D4A /* dracula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = dracula.min.css; path = Pod/Assets/styles/dracula.min.css; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45D3B4B7BE83FA4325A01D008B63A288 /* Highlightr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Pod/Classes/Highlightr.swift; sourceTree = "<group>"; };
+		46E4EF64395F8446759935654C1AA0D6 /* shades-of-purple.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "shades-of-purple.min.css"; path = "Pod/Assets/styles/shades-of-purple.min.css"; sourceTree = "<group>"; };
+		476B1D31BD41551731A95DD5B5D4A93F /* github.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = github.min.css; path = Pod/Assets/styles/github.min.css; sourceTree = "<group>"; };
+		480DB4F290639F9932AB3EDF805A1E33 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		485A6B713F4A86F0217B7AAC4B0691F0 /* codepen-embed.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "codepen-embed.min.css"; path = "Pod/Assets/styles/codepen-embed.min.css"; sourceTree = "<group>"; };
+		499AAD9742D7C2F0FD594630F6060916 /* railscasts.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = railscasts.min.css; path = Pod/Assets/styles/railscasts.min.css; sourceTree = "<group>"; };
+		4C8A84BEC321AF3403708DAAE89E6798 /* tomorrow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = tomorrow.min.css; path = Pod/Assets/styles/tomorrow.min.css; sourceTree = "<group>"; };
+		4CCC354D3FEC0C1E9EDE1C4C652ED27D /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-dune-dark.min.css"; path = "Pod/Assets/styles/atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		55E3A55EAC4CDF4667DAE86CD72189ED /* CodeAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
+		56BF79F4722D1CF2AD5DE1BCFF431395 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		5BD6E755634AF5A4204B9C1117B19620 /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-savanna-dark.min.css"; path = "Pod/Assets/styles/atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		5C06D9227C7C0E68E7146A8D1E04F460 /* school-book.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "school-book.min.css"; path = "Pod/Assets/styles/school-book.min.css"; sourceTree = "<group>"; };
+		5E9640803DED8BA646D828C05435B67D /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		5EB452046B7BE8EFB7B11DE9D849604F /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		5EC3D7ABF46FAE72D119EAB5B9057043 /* HTMLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Pod/Classes/HTMLUtils.swift; sourceTree = "<group>"; };
+		62C1C50795CE53E0B5B5D9071FB25FEF /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		64DB09A5186C1151B5AEDD8ED888617E /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		65919638DE13B02629B469EB7C5900BC /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		6A105802BDBF6BEF8F72DFACBF81A5CC /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		6A61C1E61F9C5CB68A0F325242E871C3 /* ActionSheetPicker-3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-3.0-Info.plist"; sourceTree = "<group>"; };
+		6B31D9BBA86708CD4D4C88D9400D04B4 /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-blue.min.css"; path = "Pod/Assets/styles/tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		6C910FFB7BED8B74D04A07148F972372 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-lakeside-light.min.css"; path = "Pod/Assets/styles/atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		6D74DEFBC106D5CAA023420762ADC0D8 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		6FCB7099D4E6404B0115EAE11607DF91 /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "github-gist.min.css"; path = "Pod/Assets/styles/github-gist.min.css"; sourceTree = "<group>"; };
+		7048DC0BB056B8BA07920E105A3E2703 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-plateau-light.min.css"; path = "Pod/Assets/styles/atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		759C6FA47C083D256932BF7EBDFC022C /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		767314DB15CA0B6E9D22EC4EB43E679B /* Pods-highlighterapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-highlighterapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7677B52EC7D1A563C8981684A5A86EBE /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		79F1A8E5F0CA83705C82CF481A252FD4 /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = vs.min.css; path = Pod/Assets/styles/vs.min.css; sourceTree = "<group>"; };
+		79FEB4F113C07F96A9D169F28419418E /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = androidstudio.min.css; path = Pod/Assets/styles/androidstudio.min.css; sourceTree = "<group>"; };
+		7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Highlightr.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9CEF283078F0277118BFB33FF0EDC /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-savanna-light.min.css"; path = "Pod/Assets/styles/atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		855C7A4B360D93B43882E735BE5B3488 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-forest-dark.min.css"; path = "Pod/Assets/styles/atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		85A98573B68B42BD57C563D0526535FE /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-estuary-dark.min.css"; path = "Pod/Assets/styles/atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		8644CD969A1889C2C60F79728BC6E3B5 /* zenburn.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = zenburn.min.css; path = Pod/Assets/styles/zenburn.min.css; sourceTree = "<group>"; };
+		87956A7071C64B4CCEB48B0D00ECDEA0 /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = hopscotch.min.css; path = Pod/Assets/styles/hopscotch.min.css; sourceTree = "<group>"; };
+		88660F8FA5826F5449D838814357F88D /* Pods-highlighterapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-highlighterapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BE2FFB08283D1F9297E28A2B7378CBD /* idea.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = idea.min.css; path = Pod/Assets/styles/idea.min.css; sourceTree = "<group>"; };
+		8C146A84741EADBBE5A1FBBE2F835E0E /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "arduino-light.min.css"; path = "Pod/Assets/styles/arduino-light.min.css"; sourceTree = "<group>"; };
+		8D2C4AD5E0D284EA20E1AE9660C69394 /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = kimbie.dark.min.css; path = Pod/Assets/styles/kimbie.dark.min.css; sourceTree = "<group>"; };
+		8DDFF8C0B74520B70C6C987923D9B2F0 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		8F96D005243F467247582323CD943326 /* a11y-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "a11y-dark.min.css"; path = "Pod/Assets/styles/a11y-dark.min.css"; sourceTree = "<group>"; };
+		8FA0C8C737E31AA0E41862129A639290 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-seaside-dark.min.css"; path = "Pod/Assets/styles/atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		91B81C625B46870E80E06010496AE52A /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		91F1D1B41F1C64FE4B3E3AB8E7C39D99 /* Pods-highlighterapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-highlighterapp-dummy.m"; sourceTree = "<group>"; };
+		92DF222CB28DD3E9B17AAB554ABC97C9 /* gml.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = gml.min.css; path = Pod/Assets/styles/gml.min.css; sourceTree = "<group>"; };
+		93FD5EC52C5907208CC794E92A34950C /* docco.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = docco.min.css; path = Pod/Assets/styles/docco.min.css; sourceTree = "<group>"; };
+		959C082315B30C6C1D10D76E51116A21 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-heath-light.min.css"; path = "Pod/Assets/styles/atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		95A982261684D9D603FF3DAAC667945F /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = rainbow.min.css; path = Pod/Assets/styles/rainbow.min.css; sourceTree = "<group>"; };
+		9D19111BCA30676968FB0764FEF1DB92 /* Highlightr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF778A8C089015C86E57E7C59B8142C /* nord.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = nord.min.css; path = Pod/Assets/styles/nord.min.css; sourceTree = "<group>"; };
+		9E3411532861BA96E514EDE3DE59D015 /* foundation.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = foundation.min.css; path = Pod/Assets/styles/foundation.min.css; sourceTree = "<group>"; };
+		9E96E7A7C51821B8FCBBF234BF3D16E7 /* mono-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "mono-blue.min.css"; path = "Pod/Assets/styles/mono-blue.min.css"; sourceTree = "<group>"; };
+		A02DF3EC43D3B538A8D275E997A382D3 /* atom-one-dark-reasonable.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atom-one-dark-reasonable.min.css"; path = "Pod/Assets/styles/atom-one-dark-reasonable.min.css"; sourceTree = "<group>"; };
+		A27B4D4712C383A79404BF7A45624831 /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-estuary-light.min.css"; path = "Pod/Assets/styles/atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		A4450C82156755729CF73ABE5313F296 /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = monokai.min.css; path = Pod/Assets/styles/monokai.min.css; sourceTree = "<group>"; };
+		ACAB487C92448F1C32D936093D3C2440 /* hybrid.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = hybrid.min.css; path = Pod/Assets/styles/hybrid.min.css; sourceTree = "<group>"; };
+		AEEA3CBA1FA91DD817E7FC9ED193EEC3 /* color-brewer.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "color-brewer.min.css"; path = "Pod/Assets/styles/color-brewer.min.css"; sourceTree = "<group>"; };
+		B0D6F4B07E0F584EF584EBBF16FA10DB /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "paraiso-light.min.css"; path = "Pod/Assets/styles/paraiso-light.min.css"; sourceTree = "<group>"; };
+		B3C737802EA4DD6E7FB1BA52119DC72C /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-eighties.min.css"; path = "Pod/Assets/styles/tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		B43DBE2A3E4683D231F49AB20A930F78 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "brown-paper.min.css"; path = "Pod/Assets/styles/brown-paper.min.css"; sourceTree = "<group>"; };
+		B5F926D942F77725F306DCFE6EBBBEA6 /* xcode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = xcode.min.css; path = Pod/Assets/styles/xcode.min.css; sourceTree = "<group>"; };
+		B75DCE9FD097690FD8E3F353BAFB4529 /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = grayscale.min.css; path = Pod/Assets/styles/grayscale.min.css; sourceTree = "<group>"; };
+		B7B1EA5E41795F15AFD54171E12FB2F5 /* qtcreator_light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = qtcreator_light.min.css; path = Pod/Assets/styles/qtcreator_light.min.css; sourceTree = "<group>"; };
+		B7C18F60E5333DFE808C89C8D68C96F9 /* Pods_highlighterapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_highlighterapp.framework; path = "Pods-highlighterapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA924225B26C90D87223D1246A4A530 /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-sulphurpool-dark.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		BB783B17539F47F6E322B4A365555D3B /* vs2015.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = vs2015.min.css; path = Pod/Assets/styles/vs2015.min.css; sourceTree = "<group>"; };
+		BB917A527C1720F8C64C5732BE826176 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Pod/Classes/Theme.swift; sourceTree = "<group>"; };
+		C042A47AB06D4072BB8107E46C17ADEC /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-plateau-dark.min.css"; path = "Pod/Assets/styles/atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		C3B96775653D1A2F4AEDB0606D2FEA81 /* kimbie.light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = kimbie.light.min.css; path = Pod/Assets/styles/kimbie.light.min.css; sourceTree = "<group>"; };
+		C3CA697B53BBF4D21A6E9BD74ED7A042 /* an-old-hope.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "an-old-hope.min.css"; path = "Pod/Assets/styles/an-old-hope.min.css"; sourceTree = "<group>"; };
+		C50BBB9D5C05083446F6E72E2E677945 /* xt256.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = xt256.min.css; path = Pod/Assets/styles/xt256.min.css; sourceTree = "<group>"; };
+		C5C4BD949B0710D74DFA38897902F78C /* ActionSheetPicker-3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.release.xcconfig"; sourceTree = "<group>"; };
+		C807439E475EFA7DB8ED53D6DDB6EF36 /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-cave-light.min.css"; path = "Pod/Assets/styles/atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		CB256CD8868746947FB03DC5DF10767D /* ocean.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = ocean.min.css; path = Pod/Assets/styles/ocean.min.css; sourceTree = "<group>"; };
+		CD299B6EE6C6CAA5C45F2C91A81F296E /* ir-black.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "ir-black.min.css"; path = "Pod/Assets/styles/ir-black.min.css"; sourceTree = "<group>"; };
+		CE18B768B7045C156E9E8F83ACC7C591 /* solarized-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-light.min.css"; path = "Pod/Assets/styles/solarized-light.min.css"; sourceTree = "<group>"; };
+		D0297132DB8637EAF38F826FB38C5E30 /* Highlightr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Highlightr-dummy.m"; sourceTree = "<group>"; };
+		D2EC3B62255760E065EF3DB710E9F6BB /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		D3994D463175BAC1D4DD0CB66CCB3E46 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		D4838042E5D0E238F5EE369F81C66D22 /* paraiso-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "paraiso-dark.min.css"; path = "Pod/Assets/styles/paraiso-dark.min.css"; sourceTree = "<group>"; };
+		D4E19547D683BD6B3F1A980DD8500B4C /* darcula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = darcula.min.css; path = Pod/Assets/styles/darcula.min.css; sourceTree = "<group>"; };
+		D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9601678AB87A48B273FD52C8F4E0BA2 /* atom-one-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atom-one-light.min.css"; path = "Pod/Assets/styles/atom-one-light.min.css"; sourceTree = "<group>"; };
+		D9910C1CB8906753BEDA3843228378B5 /* ActionSheetPicker-3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3B568777E33DFA4092865251B17D66 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-heath-dark.min.css"; path = "Pod/Assets/styles/atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		DDB8E64D8A84261E8C83FBD6BD872DF9 /* Pods-highlighterapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-highlighterapp.debug.xcconfig"; sourceTree = "<group>"; };
+		E17E194DE0F18E44D014897C774801F0 /* obsidian.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = obsidian.min.css; path = Pod/Assets/styles/obsidian.min.css; sourceTree = "<group>"; };
+		E3836D583C07B153B41AD733583B1108 /* tomorrow-night.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night.min.css"; path = "Pod/Assets/styles/tomorrow-night.min.css"; sourceTree = "<group>"; };
+		E471AD263F2255ACCAC52BFD53FEC0F5 /* isbl-editor-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "isbl-editor-dark.min.css"; path = "Pod/Assets/styles/isbl-editor-dark.min.css"; sourceTree = "<group>"; };
+		E608F8ABC64584A597B8B8B68942F81C /* a11y-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "a11y-light.min.css"; path = "Pod/Assets/styles/a11y-light.min.css"; sourceTree = "<group>"; };
+		E60C8D0433952D969A353CC901D83703 /* atom-one-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atom-one-dark.min.css"; path = "Pod/Assets/styles/atom-one-dark.min.css"; sourceTree = "<group>"; };
+		E7E5012054CF0C9D222E40ABFDCCA305 /* monokai-sublime.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "monokai-sublime.min.css"; path = "Pod/Assets/styles/monokai-sublime.min.css"; sourceTree = "<group>"; };
+		ECDE93AB9B7D80C6F0FED2671826A919 /* gruvbox-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "gruvbox-light.min.css"; path = "Pod/Assets/styles/gruvbox-light.min.css"; sourceTree = "<group>"; };
+		EDA92623710D4FAC9FE70288520E4027 /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = routeros.min.css; path = Pod/Assets/styles/routeros.min.css; sourceTree = "<group>"; };
+		EDDC60C952D21B829C4AB9A790D66B76 /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-lakeside-dark.min.css"; path = "Pod/Assets/styles/atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		EEA069329DBCCD3F2135E3A65C41C8CE /* dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = dark.min.css; path = Pod/Assets/styles/dark.min.css; sourceTree = "<group>"; };
+		F005D2A8F7E3F15CC350DA9E757BBE55 /* Pods-highlighterapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-highlighterapp-umbrella.h"; sourceTree = "<group>"; };
+		F064EF8922782BF2E4345EEA74CE76E5 /* Highlightr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-prefix.pch"; sourceTree = "<group>"; };
+		F33B1E000D3715C8E4B63F28B357C7D8 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		F4F7674D669BB0442F3653FB0C927ABA /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		F5AF11AD1F3D1B2E32499CB0FA7FEE99 /* Pods-highlighterapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-highlighterapp.release.xcconfig"; sourceTree = "<group>"; };
+		FAEEA07073F56320D2AF5E2BE9D7AEE3 /* magula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = magula.min.css; path = Pod/Assets/styles/magula.min.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0CCCD3B2A8F8D530AAFD52CE98B42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C55B1D975887B51CF242672194E7D66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C462C9DD4B11CE445E2C0DC761452AA2 /* Foundation.framework in Frameworks */,
+				83651C970DF8263E1D00CBAE47DC3665 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855CC64084378B2F49DE3FD64C5D418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B695F5F2420166E5982E8B8B1C2A13B /* Foundation.framework in Frameworks */,
+				A7B6BDC6A19D36FCE9F4656E03502D68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1191C341A0DA285D4BC6F91ABFF27249 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3331CA861F18DB440F3185E308E126A7 /* Pods-highlighterapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E5919C9F7C93C26154DCD327A05A0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F96D005243F467247582323CD943326 /* a11y-dark.min.css */,
+				E608F8ABC64584A597B8B8B68942F81C /* a11y-light.min.css */,
+				31EEF98E8D791FB634EBB9D5AF53F96C /* agate.min.css */,
+				C3CA697B53BBF4D21A6E9BD74ED7A042 /* an-old-hope.min.css */,
+				79FEB4F113C07F96A9D169F28419418E /* androidstudio.min.css */,
+				8C146A84741EADBBE5A1FBBE2F835E0E /* arduino-light.min.css */,
+				2BDD517D15EFE72633A857C916988265 /* arta.min.css */,
+				29B74337F5C25C489C134EA6833628FB /* ascetic.min.css */,
+				0E6FE6BECF7CBCA678B7DEBCD9946AAE /* atelier-cave-dark.min.css */,
+				C807439E475EFA7DB8ED53D6DDB6EF36 /* atelier-cave-light.min.css */,
+				4CCC354D3FEC0C1E9EDE1C4C652ED27D /* atelier-dune-dark.min.css */,
+				12B692A9DC24F094D8FC002DE6B7A3B5 /* atelier-dune-light.min.css */,
+				85A98573B68B42BD57C563D0526535FE /* atelier-estuary-dark.min.css */,
+				A27B4D4712C383A79404BF7A45624831 /* atelier-estuary-light.min.css */,
+				855C7A4B360D93B43882E735BE5B3488 /* atelier-forest-dark.min.css */,
+				177E7A8F3E35ADF945776B858ACCEA3F /* atelier-forest-light.min.css */,
+				DB3B568777E33DFA4092865251B17D66 /* atelier-heath-dark.min.css */,
+				959C082315B30C6C1D10D76E51116A21 /* atelier-heath-light.min.css */,
+				EDDC60C952D21B829C4AB9A790D66B76 /* atelier-lakeside-dark.min.css */,
+				6C910FFB7BED8B74D04A07148F972372 /* atelier-lakeside-light.min.css */,
+				C042A47AB06D4072BB8107E46C17ADEC /* atelier-plateau-dark.min.css */,
+				7048DC0BB056B8BA07920E105A3E2703 /* atelier-plateau-light.min.css */,
+				5BD6E755634AF5A4204B9C1117B19620 /* atelier-savanna-dark.min.css */,
+				84B9CEF283078F0277118BFB33FF0EDC /* atelier-savanna-light.min.css */,
+				8FA0C8C737E31AA0E41862129A639290 /* atelier-seaside-dark.min.css */,
+				0AFEE35261DA368A0FF63F50AC4A4203 /* atelier-seaside-light.min.css */,
+				BAA924225B26C90D87223D1246A4A530 /* atelier-sulphurpool-dark.min.css */,
+				14D419F819DCD0BF473B7A48F2F837DC /* atelier-sulphurpool-light.min.css */,
+				A02DF3EC43D3B538A8D275E997A382D3 /* atom-one-dark-reasonable.min.css */,
+				E60C8D0433952D969A353CC901D83703 /* atom-one-dark.min.css */,
+				D9601678AB87A48B273FD52C8F4E0BA2 /* atom-one-light.min.css */,
+				B43DBE2A3E4683D231F49AB20A930F78 /* brown-paper.min.css */,
+				485A6B713F4A86F0217B7AAC4B0691F0 /* codepen-embed.min.css */,
+				AEEA3CBA1FA91DD817E7FC9ED193EEC3 /* color-brewer.min.css */,
+				D4E19547D683BD6B3F1A980DD8500B4C /* darcula.min.css */,
+				EEA069329DBCCD3F2135E3A65C41C8CE /* dark.min.css */,
+				42D416E8443302D0D685ECC3F4D5E7AB /* darkula.min.css */,
+				093E8F83D5FAAB9BF372A90EB3A80D09 /* default.min.css */,
+				93FD5EC52C5907208CC794E92A34950C /* docco.min.css */,
+				4340A87E7A8AED82DA09EDC3DC2D4D4A /* dracula.min.css */,
+				13EBB4251635D31C2203EC9A627F261E /* far.min.css */,
+				9E3411532861BA96E514EDE3DE59D015 /* foundation.min.css */,
+				6FCB7099D4E6404B0115EAE11607DF91 /* github-gist.min.css */,
+				476B1D31BD41551731A95DD5B5D4A93F /* github.min.css */,
+				92DF222CB28DD3E9B17AAB554ABC97C9 /* gml.min.css */,
+				3A9604F1197DA0EA7073FB849AF6135C /* googlecode.min.css */,
+				B75DCE9FD097690FD8E3F353BAFB4529 /* grayscale.min.css */,
+				1363409481F137A563455507E38F49B8 /* gruvbox-dark.min.css */,
+				ECDE93AB9B7D80C6F0FED2671826A919 /* gruvbox-light.min.css */,
+				238D874E903301F2060D6355DE22C461 /* highlight.min.js */,
+				87956A7071C64B4CCEB48B0D00ECDEA0 /* hopscotch.min.css */,
+				ACAB487C92448F1C32D936093D3C2440 /* hybrid.min.css */,
+				8BE2FFB08283D1F9297E28A2B7378CBD /* idea.min.css */,
+				CD299B6EE6C6CAA5C45F2C91A81F296E /* ir-black.min.css */,
+				E471AD263F2255ACCAC52BFD53FEC0F5 /* isbl-editor-dark.min.css */,
+				3AB368CF994E1E995CB9C3D1637C8AAF /* isbl-editor-light.min.css */,
+				8D2C4AD5E0D284EA20E1AE9660C69394 /* kimbie.dark.min.css */,
+				C3B96775653D1A2F4AEDB0606D2FEA81 /* kimbie.light.min.css */,
+				26E3C9007CAAB81C1B0EA41F8A3A2242 /* lightfair.min.css */,
+				FAEEA07073F56320D2AF5E2BE9D7AEE3 /* magula.min.css */,
+				9E96E7A7C51821B8FCBBF234BF3D16E7 /* mono-blue.min.css */,
+				E7E5012054CF0C9D222E40ABFDCCA305 /* monokai-sublime.min.css */,
+				A4450C82156755729CF73ABE5313F296 /* monokai.min.css */,
+				9DF778A8C089015C86E57E7C59B8142C /* nord.min.css */,
+				E17E194DE0F18E44D014897C774801F0 /* obsidian.min.css */,
+				CB256CD8868746947FB03DC5DF10767D /* ocean.min.css */,
+				D4838042E5D0E238F5EE369F81C66D22 /* paraiso-dark.min.css */,
+				B0D6F4B07E0F584EF584EBBF16FA10DB /* paraiso-light.min.css */,
+				1891E01810B7F99AEBEF0FF3E40C70DE /* pojoaque.min.css */,
+				0C26D45CBF02BB40462450BE760219B0 /* purebasic.min.css */,
+				31911C8F718BD3338A76C52853D90BF6 /* qtcreator_dark.min.css */,
+				B7B1EA5E41795F15AFD54171E12FB2F5 /* qtcreator_light.min.css */,
+				499AAD9742D7C2F0FD594630F6060916 /* railscasts.min.css */,
+				95A982261684D9D603FF3DAAC667945F /* rainbow.min.css */,
+				EDA92623710D4FAC9FE70288520E4027 /* routeros.min.css */,
+				5C06D9227C7C0E68E7146A8D1E04F460 /* school-book.min.css */,
+				46E4EF64395F8446759935654C1AA0D6 /* shades-of-purple.min.css */,
+				236F8BA4C8812B68EE214F86C2E66063 /* solarized-dark.min.css */,
+				CE18B768B7045C156E9E8F83ACC7C591 /* solarized-light.min.css */,
+				00335580816269E343AD9E790B8F175E /* sunburst.min.css */,
+				6B31D9BBA86708CD4D4C88D9400D04B4 /* tomorrow-night-blue.min.css */,
+				219CAE2657D20E0D5C0AEB52E230AF53 /* tomorrow-night-bright.min.css */,
+				B3C737802EA4DD6E7FB1BA52119DC72C /* tomorrow-night-eighties.min.css */,
+				E3836D583C07B153B41AD733583B1108 /* tomorrow-night.min.css */,
+				4C8A84BEC321AF3403708DAAE89E6798 /* tomorrow.min.css */,
+				79F1A8E5F0CA83705C82CF481A252FD4 /* vs.min.css */,
+				BB783B17539F47F6E322B4A365555D3B /* vs2015.min.css */,
+				B5F926D942F77725F306DCFE6EBBBEA6 /* xcode.min.css */,
+				C50BBB9D5C05083446F6E72E2E677945 /* xt256.min.css */,
+				8644CD969A1889C2C60F79728BC6E3B5 /* zenburn.min.css */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3331CA861F18DB440F3185E308E126A7 /* Pods-highlighterapp */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC8E9FE20FA702FDAD0282C1AB2D47 /* Pods-highlighterapp.modulemap */,
+				767314DB15CA0B6E9D22EC4EB43E679B /* Pods-highlighterapp-acknowledgements.markdown */,
+				88660F8FA5826F5449D838814357F88D /* Pods-highlighterapp-acknowledgements.plist */,
+				91F1D1B41F1C64FE4B3E3AB8E7C39D99 /* Pods-highlighterapp-dummy.m */,
+				022AC89CC31C7C72257DCBAEE2D2EB5F /* Pods-highlighterapp-frameworks.sh */,
+				1F59BB6CEAFDDC70EB6191A81DA7036D /* Pods-highlighterapp-Info.plist */,
+				F005D2A8F7E3F15CC350DA9E757BBE55 /* Pods-highlighterapp-umbrella.h */,
+				DDB8E64D8A84261E8C83FBD6BD872DF9 /* Pods-highlighterapp.debug.xcconfig */,
+				F5AF11AD1F3D1B2E32499CB0FA7FEE99 /* Pods-highlighterapp.release.xcconfig */,
+			);
+			name = "Pods-highlighterapp";
+			path = "Target Support Files/Pods-highlighterapp";
+			sourceTree = "<group>";
+		};
+		51D0BA2180380C7377C83D904BDCF774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */,
+				7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */,
+				B7C18F60E5333DFE808C89C8D68C96F9 /* Pods_highlighterapp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691D255FBF8F05655E6D02D24B4AD90E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				110081A35B4301EC426D75DAE121A5B1 /* Highlightr.modulemap */,
+				D0297132DB8637EAF38F826FB38C5E30 /* Highlightr-dummy.m */,
+				05B8F14F93C3FCE0B57C3540E0EAFDA2 /* Highlightr-Info.plist */,
+				F064EF8922782BF2E4345EEA74CE76E5 /* Highlightr-prefix.pch */,
+				9D19111BCA30676968FB0764FEF1DB92 /* Highlightr-umbrella.h */,
+				0233313B100314A7616B432D02E268E3 /* Highlightr.debug.xcconfig */,
+				3DAAAB3F4D78209776E6E8E3F13DDE89 /* Highlightr.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Highlightr";
+			sourceTree = "<group>";
+		};
+		C4BA17F320C2E1B857EB4D164D4FED33 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				24B846968B23520F515D74AB9D7AA8CD /* AbstractActionSheetPicker.h */,
+				6D74DEFBC106D5CAA023420762ADC0D8 /* AbstractActionSheetPicker.m */,
+				7677B52EC7D1A563C8981684A5A86EBE /* ActionSheetCustomPicker.h */,
+				480DB4F290639F9932AB3EDF805A1E33 /* ActionSheetCustomPicker.m */,
+				D2EC3B62255760E065EF3DB710E9F6BB /* ActionSheetCustomPickerDelegate.h */,
+				6A105802BDBF6BEF8F72DFACBF81A5CC /* ActionSheetDatePicker.h */,
+				D3994D463175BAC1D4DD0CB66CCB3E46 /* ActionSheetDatePicker.m */,
+				91B81C625B46870E80E06010496AE52A /* ActionSheetDistancePicker.h */,
+				62C1C50795CE53E0B5B5D9071FB25FEF /* ActionSheetDistancePicker.m */,
+				0E2739E229592C23C8C997ED43467625 /* ActionSheetLocalePicker.h */,
+				1DA9BE1D830DE9DCFE682C19169C65BA /* ActionSheetLocalePicker.m */,
+				34FDF0485497E859F04B3C4005BDF62A /* ActionSheetMultipleStringPicker.h */,
+				5EB452046B7BE8EFB7B11DE9D849604F /* ActionSheetMultipleStringPicker.m */,
+				18A43E56089DF80CCE8466F6DBCFE51E /* ActionSheetPicker.h */,
+				F33B1E000D3715C8E4B63F28B357C7D8 /* ActionSheetStringPicker.h */,
+				64DB09A5186C1151B5AEDD8ED888617E /* ActionSheetStringPicker.m */,
+				56BF79F4722D1CF2AD5DE1BCFF431395 /* DistancePickerView.h */,
+				759C6FA47C083D256932BF7EBDFC022C /* DistancePickerView.m */,
+				39AB6F8750AB3874CC35AC38A0246321 /* SWActionSheet.h */,
+				8DDFF8C0B74520B70C6C987923D9B2F0 /* SWActionSheet.m */,
+				EEB48A619326D9022E0F58F741E5C9FB /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EA130F71EB74129CF6E427BAEA8A37D4 /* Pods */,
+				51D0BA2180380C7377C83D904BDCF774 /* Products */,
+				1191C341A0DA285D4BC6F91ABFF27249 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA130F71EB74129CF6E427BAEA8A37D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA17F320C2E1B857EB4D164D4FED33 /* ActionSheetPicker-3.0 */,
+				FE2756C683F35866665F8BB4A43B6D0C /* Highlightr */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEB48A619326D9022E0F58F741E5C9FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9640803DED8BA646D828C05435B67D /* ActionSheetPicker-3.0.modulemap */,
+				3BDAAFC1A54138B0C9EAD875ED57C8EB /* ActionSheetPicker-3.0-dummy.m */,
+				6A61C1E61F9C5CB68A0F325242E871C3 /* ActionSheetPicker-3.0-Info.plist */,
+				F4F7674D669BB0442F3653FB0C927ABA /* ActionSheetPicker-3.0-prefix.pch */,
+				65919638DE13B02629B469EB7C5900BC /* ActionSheetPicker-3.0-umbrella.h */,
+				D9910C1CB8906753BEDA3843228378B5 /* ActionSheetPicker-3.0.debug.xcconfig */,
+				C5C4BD949B0710D74DFA38897902F78C /* ActionSheetPicker-3.0.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		FE2756C683F35866665F8BB4A43B6D0C /* Highlightr */ = {
+			isa = PBXGroup;
+			children = (
+				55E3A55EAC4CDF4667DAE86CD72189ED /* CodeAttributedString.swift */,
+				45D3B4B7BE83FA4325A01D008B63A288 /* Highlightr.swift */,
+				5EC3D7ABF46FAE72D119EAB5B9057043 /* HTMLUtils.swift */,
+				2DD39CA0FD7F75C4FB7A2D53F4254433 /* Shims.swift */,
+				BB917A527C1720F8C64C5732BE826176 /* Theme.swift */,
+				18E5919C9F7C93C26154DCD327A05A0A /* Resources */,
+				691D255FBF8F05655E6D02D24B4AD90E /* Support Files */,
+			);
+			name = Highlightr;
+			path = Highlightr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0115641899024C8419F3ABE2484F98E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEDD505089C8B52CC5422BDDE04B68 /* Pods-highlighterapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97938F5E95D838C7DD29D196AB87752 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746B9C316EDD28F601A99C13AEC63F24 /* Highlightr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F797236E9943400DC9B18DA5F8395299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E3B6D1D900E64A816A45FBD10D5354 /* AbstractActionSheetPicker.h in Headers */,
+				7A5FA2AF26C1E051151BC66F3C8639F8 /* ActionSheetCustomPicker.h in Headers */,
+				C0B1DE05CABBD89231D61791493DAC2C /* ActionSheetCustomPickerDelegate.h in Headers */,
+				54D224241A014C4C6DCBD2026B429D60 /* ActionSheetDatePicker.h in Headers */,
+				E0FAE2EEEE2AF98B6EA1B8B6F0B898BD /* ActionSheetDistancePicker.h in Headers */,
+				501D9D8444A4AC2A50E059E60053F48A /* ActionSheetLocalePicker.h in Headers */,
+				5E99A3596F5F638076161D06AB2CCC56 /* ActionSheetMultipleStringPicker.h in Headers */,
+				59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				61EE5ED52B7595E35B0BD57761511FED /* ActionSheetPicker.h in Headers */,
+				32165B3A0682954DD05178C9A7ED1187 /* ActionSheetStringPicker.h in Headers */,
+				A1237D1EEF827FF68FD99A8DD8BE73BF /* DistancePickerView.h in Headers */,
+				C65D0EE0041E43E7211946FD5B1E2CAD /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41B6073452CB2641BC90022779246018 /* Pods-highlighterapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95935E7DFE50FC2ACD8D4E2EC406770 /* Build configuration list for PBXNativeTarget "Pods-highlighterapp" */;
+			buildPhases = (
+				B0115641899024C8419F3ABE2484F98E /* Headers */,
+				12C21947380CC95999F172DD82F936CB /* Sources */,
+				4F0CCCD3B2A8F8D530AAFD52CE98B42F /* Frameworks */,
+				273165BC4FC4D4FAB97925D5050089B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48DF5824836A2EF4507447956395481A /* PBXTargetDependency */,
+				42AA7438770318FFF78F2B3881E67F29 /* PBXTargetDependency */,
+			);
+			name = "Pods-highlighterapp";
+			productName = "Pods-highlighterapp";
+			productReference = B7C18F60E5333DFE808C89C8D68C96F9 /* Pods_highlighterapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				F797236E9943400DC9B18DA5F8395299 /* Headers */,
+				0E787632F3433FAA0F5CA827E9067BC0 /* Sources */,
+				5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */,
+				0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8EB4605C77C3B76FD2E28AAD11B79C /* Build configuration list for PBXNativeTarget "Highlightr" */;
+			buildPhases = (
+				C97938F5E95D838C7DD29D196AB87752 /* Headers */,
+				48D61E34622AD202227CD868C4478476 /* Sources */,
+				855CC64084378B2F49DE3FD64C5D418D /* Frameworks */,
+				0DA288BE37953CC12C50EB5C94979509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Highlightr;
+			productName = Highlightr;
+			productReference = 7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 51D0BA2180380C7377C83D904BDCF774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */,
+				B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */,
+				41B6073452CB2641BC90022779246018 /* Pods-highlighterapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DA288BE37953CC12C50EB5C94979509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAB4EB203A6009138A1C1E2BB7888A1 /* a11y-dark.min.css in Resources */,
+				C0FA571123133CCBB85CC5DB8A68D89B /* a11y-light.min.css in Resources */,
+				69F59DD09E155F745D9F2ABB3A64EBF7 /* agate.min.css in Resources */,
+				963C85C58CE21ACF53AF1164C41DBF44 /* an-old-hope.min.css in Resources */,
+				B22D8097FEA61CBB9A6094D4B60DC505 /* androidstudio.min.css in Resources */,
+				CD5468196E7DE88F3C6531D76F480195 /* arduino-light.min.css in Resources */,
+				F8E0A47D8491EF135AD8E3B5E54C2AD6 /* arta.min.css in Resources */,
+				1C28C1D3C9A5A148C552451C097C51F1 /* ascetic.min.css in Resources */,
+				40163CB38A022C5517CFDBD7F6CABEFF /* atelier-cave-dark.min.css in Resources */,
+				EA0C2301A8F1A0DA9BD6D299CA10080A /* atelier-cave-light.min.css in Resources */,
+				9BBCACB93C3591CC2C05F032F545CBAD /* atelier-dune-dark.min.css in Resources */,
+				BFE400F171DC60C014F13D691FD61FA8 /* atelier-dune-light.min.css in Resources */,
+				958AD0EFC163CB32EA6745A5B5E9692D /* atelier-estuary-dark.min.css in Resources */,
+				70B30C189B53A7E694253E32F1CFD909 /* atelier-estuary-light.min.css in Resources */,
+				B04A04F3D9EAE6935B55A4CB7404A43B /* atelier-forest-dark.min.css in Resources */,
+				A135726B17D46E531FF97ED1A5913B1E /* atelier-forest-light.min.css in Resources */,
+				B187C749298B8BB4253961040E4F86C1 /* atelier-heath-dark.min.css in Resources */,
+				B152AF66EB22A28C60540A313BFCD76E /* atelier-heath-light.min.css in Resources */,
+				437503877C37313F6544CB53D3209D92 /* atelier-lakeside-dark.min.css in Resources */,
+				E7E8411A877D5374B0BE09D7856FC0CF /* atelier-lakeside-light.min.css in Resources */,
+				81B150D610C43FBAA49FD85F086BE90A /* atelier-plateau-dark.min.css in Resources */,
+				C2D65EAE8886AC3A1EF396D513DFA37F /* atelier-plateau-light.min.css in Resources */,
+				89453DE5FF4129D4AEFCDB48E5193D98 /* atelier-savanna-dark.min.css in Resources */,
+				0BA6E56E894728D59DEF66A4C63D9A7A /* atelier-savanna-light.min.css in Resources */,
+				9BFAD43FAB646FB257EC1BAB5B961D6F /* atelier-seaside-dark.min.css in Resources */,
+				8D5D26A5B70AA4D55D6BE58745D76E5A /* atelier-seaside-light.min.css in Resources */,
+				A3E3A956296D2642CC84D07F65D277A5 /* atelier-sulphurpool-dark.min.css in Resources */,
+				0DC3D15F4FAA1853B7B377900BCA417E /* atelier-sulphurpool-light.min.css in Resources */,
+				F43C3A80AE7A7469CB144208F960AF5E /* atom-one-dark-reasonable.min.css in Resources */,
+				70866031BBB9398A61E0FCC5DA0E4228 /* atom-one-dark.min.css in Resources */,
+				295CFC1BD4613F4AD34DD8229EF50F93 /* atom-one-light.min.css in Resources */,
+				FDE2CCCCBC20A84591FCABA3A9A2EA0F /* brown-paper.min.css in Resources */,
+				682D476D4804A5F7BFAE75EE827D2638 /* codepen-embed.min.css in Resources */,
+				21B4CDC6FD90007EF9A2992C9C41DC49 /* color-brewer.min.css in Resources */,
+				C2C19A279E190C14972634D249E96F45 /* darcula.min.css in Resources */,
+				21E9C1635BED58B8B49774AB168CDC9D /* dark.min.css in Resources */,
+				DBBCA4EA831AE6BAAB632D098314DD05 /* darkula.min.css in Resources */,
+				CAF6C0CC4CA79C9AFB0506EC45C6E94B /* default.min.css in Resources */,
+				509AAB38C4407B8DF620D3364EE6860D /* docco.min.css in Resources */,
+				12EA1FDBC73D3E6FE5DED3A5AF6611D4 /* dracula.min.css in Resources */,
+				D25CCB428F60F230FC80C6D19DE084CF /* far.min.css in Resources */,
+				2E7CA3EAF445B41806F1C1BC057E628E /* foundation.min.css in Resources */,
+				45698778B5D965CFB9C43F683BF6625A /* github-gist.min.css in Resources */,
+				117167EFE5268CA55A50FE556EC42E9E /* github.min.css in Resources */,
+				19AF00486DE96979A194FA58C0840695 /* gml.min.css in Resources */,
+				BF1517DB55CDFFBDBA8EFD4335FB0EE1 /* googlecode.min.css in Resources */,
+				C2802A0975B9AFF772715A8BCC89128D /* grayscale.min.css in Resources */,
+				A623E240622352B0B89729F99971540A /* gruvbox-dark.min.css in Resources */,
+				A9D9D0E8198E55FF5AD536AB433F90D5 /* gruvbox-light.min.css in Resources */,
+				EBD7F5BCF2EC0163384B1D5873DCC762 /* highlight.min.js in Resources */,
+				3F5BF0A034ED0E363A5CDD05C36EA2A3 /* hopscotch.min.css in Resources */,
+				8874C6FFD6003A48E1879E3EEA1C35B1 /* hybrid.min.css in Resources */,
+				7F70002E8C0DF2BF8A9F5D47A924AD63 /* idea.min.css in Resources */,
+				5C1DB39ED6A07B9AF4F5B29B51DDD3B1 /* ir-black.min.css in Resources */,
+				5E2AC9DEBC506C976E544B0566B61DF0 /* isbl-editor-dark.min.css in Resources */,
+				1CA2D2B63B73621DBAC7CFEB380CFDF6 /* isbl-editor-light.min.css in Resources */,
+				F05E65795E43FCD2F3CAF46C36F4F132 /* kimbie.dark.min.css in Resources */,
+				C8AAAAA899223C4342B183E664284CED /* kimbie.light.min.css in Resources */,
+				69B08E1E5A144ECD1E4FF722E8ACECE3 /* lightfair.min.css in Resources */,
+				E79E4C6F654E7373059D62E4F2432C91 /* magula.min.css in Resources */,
+				9DEA816E3C0C45754C0C55721B5C5A3E /* mono-blue.min.css in Resources */,
+				80633AE38B7FFC76DE34B87A63820527 /* monokai-sublime.min.css in Resources */,
+				DA46CE544774BB49772D545061DF00D9 /* monokai.min.css in Resources */,
+				C5E4135327693EACA18256193F2DC95B /* nord.min.css in Resources */,
+				BE09CC034675464469183909970F2460 /* obsidian.min.css in Resources */,
+				0A0F1E2B7C7E54CC8635EF4371F48FE9 /* ocean.min.css in Resources */,
+				B322E14EE5D4B1F203C3C543F285C418 /* paraiso-dark.min.css in Resources */,
+				7E24A64B126B2E84349534D7D668AE30 /* paraiso-light.min.css in Resources */,
+				6C91B4F117FFA093F740F975C33CB2B8 /* pojoaque.min.css in Resources */,
+				94211506B10F74C3E3ED065E382BAB8B /* purebasic.min.css in Resources */,
+				BC995ADB8550B0B8CB8B53AC8BC643EC /* qtcreator_dark.min.css in Resources */,
+				416DDE6DA332A7F5F27538DF14390B80 /* qtcreator_light.min.css in Resources */,
+				30A1A9F011DCCB5881FB72D9C89E14A3 /* railscasts.min.css in Resources */,
+				98A56F4FB4306A4281F6426384A9F982 /* rainbow.min.css in Resources */,
+				3CAA6E5219F3997A859577B688E9365A /* routeros.min.css in Resources */,
+				6C0D9FD5DDB88A298F3C26883488E92A /* school-book.min.css in Resources */,
+				4F246508449CC33854B7E1CC61699D9D /* shades-of-purple.min.css in Resources */,
+				08EFCDAA97DF13161E4256DDC02F4DAA /* solarized-dark.min.css in Resources */,
+				48385935B0709D5AD3C97E3B251A20CF /* solarized-light.min.css in Resources */,
+				3406709367A4D069D707E6343D9B499F /* sunburst.min.css in Resources */,
+				07252E9AC17882D2B1EA4168AFCCE740 /* tomorrow-night-blue.min.css in Resources */,
+				7F3C85EBC1F3F2ECE4FF6453A3522BAC /* tomorrow-night-bright.min.css in Resources */,
+				19E9D2DD82F6AA80DB0F16BD6FB7C540 /* tomorrow-night-eighties.min.css in Resources */,
+				5958EA9310DE6034B00DFE8919916758 /* tomorrow-night.min.css in Resources */,
+				7D6D4B1D849EA06229626399F32C64E9 /* tomorrow.min.css in Resources */,
+				764C13BFA23196755AE16C23C407B1B2 /* vs.min.css in Resources */,
+				C9537AAFF97CBF25AD79A10E8A802253 /* vs2015.min.css in Resources */,
+				EDDC7DAE72472D6C48A3E3ECB654B1E6 /* xcode.min.css in Resources */,
+				945DCA340BE155923A9265A5F44FBAC7 /* xt256.min.css in Resources */,
+				42FF8F423095C1B79155779D05C792CA /* zenburn.min.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273165BC4FC4D4FAB97925D5050089B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E787632F3433FAA0F5CA827E9067BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BA981DAE8909BBCCC84BD7C11A9CFE /* AbstractActionSheetPicker.m in Sources */,
+				14B7119D584D683382AD551BD7E0CE1F /* ActionSheetCustomPicker.m in Sources */,
+				5AFC6B513821D9A24606647D18A1A6AC /* ActionSheetDatePicker.m in Sources */,
+				35F0FF7AA9DA5ABE4319BF03753615BD /* ActionSheetDistancePicker.m in Sources */,
+				80512224A93B07789E3D9B0B1D1DE878 /* ActionSheetLocalePicker.m in Sources */,
+				A5828B9228BE4D8F51717C2B33DD8124 /* ActionSheetMultipleStringPicker.m in Sources */,
+				A527247163EFAE005CF0BDEC52920CCD /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				24D50EC74B590D27D845C80D7D887EE3 /* ActionSheetStringPicker.m in Sources */,
+				7D2528772BDC6A6EB0EEEFD85740C034 /* DistancePickerView.m in Sources */,
+				AFA7A7D2E2531C72B55E26B28B0660D6 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C21947380CC95999F172DD82F936CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2AB8F611C6981073337A5CB75A8D5 /* Pods-highlighterapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D61E34622AD202227CD868C4478476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFFA7B5F6A011C8629CB7F3EC3E580B /* CodeAttributedString.swift in Sources */,
+				CFCD464D6E4B76367A35F6752630BAA3 /* Highlightr-dummy.m in Sources */,
+				475002A7B711CD996CEDD17CCAA93099 /* Highlightr.swift in Sources */,
+				3080BAC39D886FFDFEBFB19ED7467669 /* HTMLUtils.swift in Sources */,
+				AA5C32D97513834B0735E998633E5573 /* Shims.swift in Sources */,
+				6C3216186CB3EE026FD7B7E35CD715C6 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AA7438770318FFF78F2B3881E67F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highlightr;
+			target = B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */;
+			targetProxy = 5FE777E8F4701FAF1F531CD46A43097B /* PBXContainerItemProxy */;
+		};
+		48DF5824836A2EF4507447956395481A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
+			targetProxy = 001CC5AF482A589C5841560F5B0F0F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BA6468B2B3181279C0E133CC5FAB05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0233313B100314A7616B432D02E268E3 /* Highlightr.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Highlightr/Highlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Highlightr/Highlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Highlightr/Highlightr.modulemap";
+				PRODUCT_MODULE_NAME = Highlightr;
+				PRODUCT_NAME = Highlightr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		635243A944AA2762B054E4517D4DC8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9910C1CB8906753BEDA3843228378B5 /* ActionSheetPicker-3.0.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64679ADD7CF86C7FE3EA9285C43452DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB8E64D8A84261E8C83FBD6BD872DF9 /* Pods-highlighterapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-highlighterapp/Pods-highlighterapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-highlighterapp/Pods-highlighterapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F64FE506C7E89088D21C614F4A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C4BD949B0710D74DFA38897902F78C /* ActionSheetPicker-3.0.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CED8983206421951A284098C644FC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AF11AD1F3D1B2E32499CB0FA7FEE99 /* Pods-highlighterapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-highlighterapp/Pods-highlighterapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-highlighterapp/Pods-highlighterapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6B786DFBD61282897706D1367EE5ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAAAB3F4D78209776E6E8E3F13DDE89 /* Highlightr.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Highlightr/Highlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Highlightr/Highlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Highlightr/Highlightr.modulemap";
+				PRODUCT_MODULE_NAME = Highlightr;
+				PRODUCT_NAME = Highlightr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635243A944AA2762B054E4517D4DC8FE /* Debug */,
+				6F64FE506C7E89088D21C614F4A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8EB4605C77C3B76FD2E28AAD11B79C /* Build configuration list for PBXNativeTarget "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA6468B2B3181279C0E133CC5FAB05E /* Debug */,
+				D6B786DFBD61282897706D1367EE5ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95935E7DFE50FC2ACD8D4E2EC406770 /* Build configuration list for PBXNativeTarget "Pods-highlighterapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64679ADD7CF86C7FE3EA9285C43452DD /* Debug */,
+				CED8983206421951A284098C644FC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_highlighterapp {
+  umbrella header "Pods-highlighterapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
